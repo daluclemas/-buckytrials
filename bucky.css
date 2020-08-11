@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:rgb(31, 25, 25);
+    color:white;
+}
+
+div{
+    margin:15px;
+    padding:10px;
+    font-family:arial,sans-serif;
+    font-size:20px;
+    text-align:center;
+    vertical-align:middle;
+    height:700px;
+
+}
+
+ul{
+    border-right: 2px solid grey;
+    border-bottom:2px solid grey;
+    border-radius:5px;
+    list-style-type:square;
+    list-style-position: inside;
+    margin:10px;
+}
+
+h1{
+    text-decoration:underline overline;
+    text-transform:capitalize;
+    margin:10px;
+
+}
+li::first-letter{
+    text-transform:uppercase;
+}
+
+p::first-letter{
+    text-transform:uppercase;
+}
